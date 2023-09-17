@@ -1,0 +1,977 @@
+
+/* ==================GOOGLE FONT FAMILY URBANIST=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY WORK SANS=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==================GOOGLE FONT FAMILY ROBOTO=========== */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Urbanist;
+  font-style: normal;
+}
+/* ========================NAVBAR STYLING START HERE================ */
+.img-div{
+  margin: 23px 188px 24px 148px !important;
+}
+.img-div img{
+  width: 98px;
+height: 65px;
+}
+.navbar-nav{
+  padding: 48px 44px;
+}
+.navbar-nav .nav-item .nav-link{
+  color: #000;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%; /* 20px */
+padding-left: 44px;
+}
+.dropdown button{
+  border-radius: 4px;
+background: #E7777D !important;
+border: none;
+}
+.dropdown .btn{
+  color:  #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px; /* 150% */
+width: 100%;
+}
+.nav-item .active {
+  color: #FF1F55 !important;
+}
+.nav-item a:hover {
+  color: #FF1F55 !important;
+}
+.nav-item a::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #FF1F55;
+  transition: 0.3s;
+}
+
+.nav-item a:hover::after {
+  width: 60% !important;
+  transition: 0.3s !important;
+}
+
+.nav-item .active::after {
+  content: '' !important;
+  display: block !important;
+  width: 60% !important;
+  height: 2px !important;
+  background-color: #FF1F55 !important;
+  transition: 0.3s !important;
+}
+/* =================NAVBAR STYLING END HERE================== */
+/* =================MAIN HEADER SECTION STYLING START HERE================== */
+.carousel-caption {
+  padding: 167px 260px 187px 260px;
+  color: black;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  text-align: center;
+  background-color: rgba(2, 2, 2, 0.59) !important;
+}
+.carousel-caption h2{
+  color: #FFF;
+text-align: center;
+font-size: 50px;
+font-weight: 700;
+line-height: 138.5%; /* 69.25px */
+text-transform: capitalize;
+margin-bottom: 0px;
+}
+.carousel-caption p{
+  padding: 10px 0px 25px 0px;
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 180%; /* 28.8px */
+margin-bottom: 0px;
+
+}
+/* =================MAIN HEADER SECTION STYLING END HERE================== */
+/* =================ABOUT US SECTION STYLING START HERE================== */
+.about-us{
+  margin: 18px 160px 70px 160px !important;
+  border-radius: 16px;
+background: #FFF;
+box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.10);
+}
+.about-us-main-content-div{
+  padding: 125px 10px;
+}
+.about-us-img-div img{
+width: 100%;
+}
+.social-icons{
+  position: relative;
+  z-index: 30;
+  padding: 7px;
+  width: 219px;
+  margin-top: -41px;
+  margin-left: 95px;
+  border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+}
+.about-us-img-div{
+  position: relative;
+  z-index: 20;
+}
+.social-icons a i{
+  padding: 15px;
+  color: #DF5C62;
+}
+.social-icons a i:hover{
+  background-color: #DF5C62;
+  color: white;
+  border-radius: 4px;
+}
+.about-us-content h4{
+  color: #FF595A;
+font-size: 16px;
+font-weight: 700;
+line-height: 32px; /* 200% */
+margin-bottom: 0px;
+}
+.about-us-content h2{
+  color: #333;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px; /* 133.333% */
+margin-bottom: 0px;
+
+}
+.about-us-content p{
+  padding-top: 15px;
+  color: #333;
+font-family: Inter;
+/* font-size: 20px; */
+font-size: 27px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+padding-bottom: 35px;
+margin-bottom: 0px;
+
+}
+.about-us-content button{
+  border-radius: 4px;
+background: #DF5C62;
+}
+.about-us-content .btn{
+  padding: 14px 36px;
+  color: #FFF;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+/* =================ABOUT US SECTION STYLING END HERE================== */
+/* =================SABIHA NEWS  SECTION STYLING START HERE================== */
+.background-class{
+  background: #F7F8F9;
+}
+.news-section-main-heading{
+  padding-top: 61px;
+  padding-bottom: 54px;
+}
+.news-section-main-heading h1{
+  color: #000;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px; /* 120% */
+margin-bottom: 0px;
+}
+.card-img-div{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-div img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-content-div{
+  padding: 22px 24px 26px 28px;
+}
+.card-content-div h3{
+  color: #0D152E;
+font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 34px; /* 170% */
+letter-spacing: -0.66px;
+margin-bottom: 0px;
+}
+.card-content-div p{
+  color: #81838C;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: -0.5px;
+padding-top: 21px;
+margin-bottom: 0px;
+}
+.card-content-div a h6{
+  color: #DF5C62;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.528px;
+text-decoration-line: underline;
+padding-top: 26px;
+margin-bottom: 0px;
+}
+.card{
+  margin-bottom: 130px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* =================SABIHA NEWS  SECTION STYLING END HERE================== */
+/* =================MOST  FEATURE  SECTION STYLING START HERE================== */
+.most-feature-section{
+  background: #FEF5F5;
+}
+.most-feature-sction-heading{
+  text-align: center;
+  padding-top: 35px;
+}
+.most-feature-sction-heading h1{
+  color: #100F14;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.most-feature-sction-heading p{
+  color:  #A8A7AE;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 0px;
+}
+.tab-shift-button{
+  padding: 50px 0px ;
+}
+.tab-shift-button button{
+  border-radius: 10px;
+background: var(--gray-gray-10, rgba(168, 167, 174, 0.10));
+}
+.tab-shift-button .btn{
+  padding: 20px;
+  color: #100F14;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.tab-shift-button .active{
+  background: #DF5C62;
+  border: none;
+color: white;
+}
+.tab-shift-button :hover{
+  background: #DF5C62;
+  border: none;
+color: white;
+}
+.most-feature-card2{
+  margin-bottom: 86px !important;
+}
+.most-feature-card{
+  border-radius: 20px;
+border: 1px solid var(--gray-gray-20, rgba(168, 167, 174, 0.20));
+box-shadow: 0px 55px 90px 0px rgba(0, 0, 0, 0.03), 0px 55px 70px 0px rgba(0, 0, 0, 0.03);
+}
+.main-card-body{
+  padding: 20px;
+}
+.most-feature-card-img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.most-feature-card-img-div img{
+  width: 100%;
+}
+.rating-stars{
+  padding-top: 16px;
+}
+.rating-stars span .review{
+  color: var(--Dark-500, #100F14);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.rating-stars .fa{
+  color: #ebba31;
+}
+.rating-stars .half{
+  color: #b6b1a4;
+}
+.main-card-body h2{
+  color: var(--Dark-500, #100F14);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 8px;
+  line-height: 30px;
+}
+.comments-sec p{
+  color: var(--Dark-500, #100F14);
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 26px; /* 200% */
+}
+.comments-sec .fa-regular{
+  font-size: 20px;
+}
+.tutor-row{
+  border-top:  1px solid rgba(168, 167, 174, 0.10);
+}
+.tutor-img-sec{
+  padding-top: 9px;
+}
+.tutor-img-sec p{
+  color: var(--Dark-500, #100F14);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 0px;
+
+}
+.tutor-content-sec p{
+  color: var(--Dark-500, #100F14);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px; /* 150% */
+padding-top: 13px;
+margin-bottom: 0px;
+}
+/* =================MOST  FEATURE  SECTION STYLING END HERE================== */
+/* =================FREE COURSES  SECTION STYLING START HERE================== */
+.free-courses-main-heading{
+  padding-top: 65px !important;
+}
+.free-courses{
+  padding-top: 57px !important;
+}
+.free-courses-2{
+  padding-top: 0px !important;
+}
+.free-courses .fa-thumbs-up , .fa-comments{
+  color: #DF5C62;
+}
+.free-courses p{
+  color: var(--Gray-500, #A6AAAC);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 0px;
+padding-bottom: 20px !important;
+}
+.free-courses button{
+  border-radius: 4px;
+background: #DF5C62;
+}
+.free-courses .btn{
+  padding: 14px 36px;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 34px;
+}
+/* =================FREE COURSES  SECTION STYLING END HERE================== */
+/* =================FOOTER STYLING START HERE================== */
+.footer{
+  background: #111;
+}
+.footer-logo-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.footer-logo-div img{
+width: 50%;
+}
+.footer-links{
+  padding: 66px 0px;
+}
+.footer-links h5{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Epilogue;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px; /* 200% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.footer-links a {
+  text-decoration: none;
+
+}
+.footer-links a li{
+  color: #FFF;
+font-family: Epilogue;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px; /* 250% */
+list-style: none;
+}
+.social-icon{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon a{
+color: #FFFFFF;
+background-color:#FFFFFF14;
+padding: 18px;
+border-radius: 100%;
+}
+.social-icon a i{
+  font-size: 25px;
+}
+.footer-copyright{
+  padding: 0px 0px 65px 97px;
+}
+.footer-copyright p{
+  color: rgba(255, 255, 255, 0.50);
+font-family: Epilogue;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px; /* 200% */
+margin-bottom: 0;
+}
+.terms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.terms a{
+  list-style: none;
+  text-decoration: none;
+}
+.terms p{
+  color: #FFF;
+text-align: right;
+font-family: Epilogue;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px; /* 200% */
+margin-bottom: 0;
+}
+/* =================FOOTER STYLING END HERE================== */
+
+/* =================MEDIA QUERIES START HERE================== */
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .img-div {
+    margin: 23px 52px!important;
+}
+.navbar-nav .nav-item .nav-link {
+  padding-left: 26px;
+}
+.navbar-nav {
+  padding: 2px 29px;
+}
+.carousel-caption {
+  padding: 224px 215px 0px 215px;
+}
+.carousel-caption h2 {
+  font-size: 36px;
+}
+.carousel-caption {
+  padding: 224px 215px 53px 215px;
+}
+.about-us-content h2 {
+  font-size: 36px;
+  line-height: 46px;
+}
+.about-us-content p {
+  font-size: 16px;
+  line-height: 33px;
+    padding-bottom: 18px;
+}
+.social-icons {
+  margin-left: 37px;
+}
+.main-card-body h2 {
+  font-size: 17px;
+}
+.free-courses-2{
+  padding-top: 0% !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .img-div {
+    margin: 15px 31px !important;
+}
+.nav-item .active::after {
+  width: 6% !important;
+}
+.carousel-caption {
+  padding: 224px 215px 53px 215px;
+}
+.carousel-caption h2 {
+  font-size: 20px;
+}
+.carousel-caption p {
+  font-size: 17px;
+}
+.about-us-content h2 {
+  font-size: 20px;
+  line-height: 29px;
+}
+.about-us-content p {
+  font-size: 16px;
+  line-height: 23px;
+}
+.about-us {
+  margin: 18px 100px 50px 100px !important;
+}
+.footer-copyright {
+  padding: 0px 0px 65px 31px;
+}
+.social-icon a i {
+  font-size: 16px;
+}
+.social-icons {
+  margin-top: -23px;
+    width: 186px;
+    margin-left: 16px;
+}
+.about-us-main-content-div {
+  padding: 64px 10px;
+}
+.card-content-div {
+  padding: 22px 14px 26px 14px;
+}
+.card-content-div h3 {
+  line-height: 22px;
+}
+.card-content-div p {
+  line-height: 21px;
+}
+.card-content-div a h6 {
+  padding-top: 20px;
+}
+.card {
+  margin-bottom: 90px;
+
+}
+.main-card-body {
+  padding: 10px;
+}
+.review{
+  font-size: 12px;
+}
+.main-card-body h2 {
+  font-size: 14px;
+}
+.comments-sec p {
+  font-size: 9px;
+  margin-bottom: 0px;
+}
+.main-card-body h2 {
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+.tutor-content-sec p {
+  font-size: 15px;
+}
+.tutor-img-sec p {
+  font-size: 14px;
+}
+.free-courses p {
+  padding-bottom: 9px !important;
+}
+.free-courses p {
+  font-size: 13px !important;
+  line-height: 20px !important;
+
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .img-div {
+    margin: 0px !important;
+}
+.nav-item .active::after {
+  width: 10% !important;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+}
+.carousel-caption h2 {
+  font-size: 15px;
+}
+.carousel-caption p {
+  padding: 0px 0px 25px 0px;
+  font-size: 10px;
+}
+.carousel-caption {
+  display: block !important;
+  padding: 222px 0px 0px 0px;
+}
+.footer-logo-div {
+  height: 48vh;
+}
+.footer-links {
+  padding: 0px 0px;
+}
+.footer-links ul{
+  padding-left: 25px !important;
+}
+.footer-links h5 {
+  font-size: 12px;
+}
+.footer-links a li {
+  font-size: 12px;
+}
+.social-icon {
+  height: 43vh;
+}
+.social-icon a i {
+  font-size: 16px;
+}
+.footer-copyright {
+  padding: 0px ;
+}
+.footer-copyright p {
+  font-size: 15px;
+  text-align: center;
+}
+.about-us-row{
+  margin: 10px;
+}
+.social-icons {
+  width: 199px;
+  margin-left: 112px;
+}
+.about-us-main-content-div {
+  padding: 34px 10px;
+}
+.about-us-content h4 {
+  padding-top: 29px;
+}
+.about-us-content h2 {
+  font-size: 25px;
+  line-height: 28px;
+}
+.about-us-content p {
+  font-size: 17px;
+  line-height: 23px;
+}
+.about-us-content button {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  .img-div {
+    margin: 0px !important;
+}
+.nav-item .active::after {
+  width: 10% !important;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+}
+.carousel-caption h2 {
+  font-size: 15px;
+}
+.carousel-caption p {
+  padding: 0px 0px 25px 0px;
+  font-size: 10px;
+}
+.carousel-caption {
+  display: block !important;
+  padding: 222px 0px 0px 0px;
+}
+.footer-logo-div {
+  height: 57vh;
+}
+.footer-logo-div img {
+  width: 42%;
+}
+.footer-links {
+  padding: 0px 0px;
+}
+.footer-links ul{
+  padding-left: 25px !important;
+}
+.footer-links h5 {
+  font-size: 12px;
+}
+.footer-links a li {
+  font-size: 12px;
+}
+.social-icon {
+  height: 43vh;
+}
+.social-icon a i {
+  font-size: 16px;
+}
+.footer-copyright {
+  padding: 0px ;
+}
+.footer-copyright p {
+  font-size: 12px;
+  text-align: center;
+}
+.terms p {
+  font-size: 12px;
+}
+.about-us-row{
+  margin: 10px;
+}
+.social-icons {
+  width: 199px;
+  margin-left: 53px;
+}
+.about-us-main-content-div {
+  padding: 34px 10px;
+}
+.about-us-content h4 {
+  padding-top: 29px;
+}
+.about-us-content h2 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.about-us-content p {
+  font-size: 17px;
+  line-height: 23px;
+}
+.about-us-content button {
+  width: 100%;
+}
+.free-courses button {
+  width: 100%;
+}
+.news-section-main-heading {
+  padding-top: 23px;
+  padding-bottom: 16px;
+}
+.news-section-main-heading h1 {
+  font-size: 22px;
+}
+.card-content-div {
+  padding: 22px 19px 26px 19px;
+}
+.card {
+  margin-bottom: 28px;
+}
+.tab-shift-button .btn {
+  padding: 6px;
+  font-size: 10px;
+}
+.most-feature-sction-heading h1 {
+    font-size: 27px;
+}
+.most-feature-sction-heading p {
+  font-size: 15px;
+}
+.tab-shift-button {
+  padding: 16px 0px;
+}
+.main-card-body h2 {
+  font-size: 17px;
+}
+.comments-sec p {
+  font-size: 12px;
+}
+.tutor-content-sec p {
+  font-size: 15px;
+}
+.tutor-img-sec p {
+  font-size: 15px;
+}
+.most-feature-card2 {
+  margin-bottom: 0px !important;
+}
+.card-6{
+  margin-bottom: 46px;
+}
+.free-courses p {
+  padding-bottom: 5px !important;
+}
+.free-courses {
+  padding-top: 36px !important;
+}
+.free-courses p {
+  font-size: 12px !important;
+}
+.free-courses-3 , .free-courses-2{
+  padding-top: 0px !important;
+}
+}
+@media only screen and (max-width: 320px) {
+  .img-div {
+    margin: 0px !important;
+}
+.nav-item .active::after {
+  width: 10% !important;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+}
+.carousel-caption h2 {
+  font-size: 15px;
+}
+.carousel-caption p {
+  padding: 0px 0px 25px 0px;
+  font-size: 10px;
+}
+.carousel-caption {
+  display: block !important;
+  padding: 31px 0px 0px 0px;
+}
+.footer-logo-div {
+  height: 48vh;
+}
+.footer-links {
+  padding: 0px 0px;
+}
+.footer-links ul{
+  padding-left: 4px !important;
+}
+.footer-links h5 {
+  font-size: 12px;
+}
+.footer-links a li {
+  font-size: 12px;
+}
+.social-icon {
+  height: 43vh;
+}
+.social-icon a i {
+  font-size: 16px;
+}
+.footer-copyright {
+  padding: 0px ;
+}
+.footer-copyright p {
+  font-size: 12px;
+  text-align: center;
+}
+.terms p {
+  font-size: 12px;
+}
+.about-us-row{
+  margin: 10px;
+}
+.social-icons {
+  width: 199px;
+  margin-left: 19px;
+}
+.about-us-main-content-div {
+  padding: 34px 10px;
+}
+.about-us-content h4 {
+  padding-top: 29px;
+}
+.about-us-content h2 {
+  font-size: 15px;
+  line-height: 34px;
+}
+.about-us-content p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.about-us-content button {
+  width: 100%;
+}
+.free-courses button {
+  width: 100%;
+}
+.news-section-main-heading {
+  padding-top: 23px;
+  padding-bottom: 16px;
+}
+.news-section-main-heading h1 {
+  font-size: 22px;
+}
+.card-content-div {
+  padding: 22px 19px 26px 19px;
+}
+.card {
+  margin-bottom: 28px;
+}
+.tab-shift-button .btn {
+  padding: 6px;
+  font-size: 10px;
+}
+.most-feature-sction-heading h1 {
+    font-size: 27px;
+}
+.most-feature-sction-heading p {
+  font-size: 15px;
+}
+.tab-shift-button {
+  padding: 16px 0px;
+}
+.main-card-body h2 {
+  font-size: 17px;
+}
+.comments-sec p {
+  font-size: 12px;
+}
+.tutor-content-sec p {
+  font-size: 15px;
+}
+.tutor-img-sec p {
+  font-size: 15px;
+}
+.most-feature-card2 {
+  margin-bottom: 0px !important;
+}
+.card-6{
+  margin-bottom: 46px;
+}
+.free-courses p {
+  padding-bottom: 5px !important;
+}
+.free-courses {
+  padding-top: 36px !important;
+}
+.free-courses p {
+  font-size: 12px !important;
+}
+.free-courses-3 , .free-courses-2{
+  padding-top: 0px !important;
+}
+}
+/* =================MEDIA QUERIES END HERE================== */
